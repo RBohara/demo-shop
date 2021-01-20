@@ -109,7 +109,7 @@ const FeatureSectionStyle = styled.div`
 `;
 
 const SeeMoreFeaturesStyle = styled.button`
-  background-color: #fc8621;
+  background-color: #2e343c;
   display: block;
   margin: 1rem auto;
   padding: 1rem 1.5rem;

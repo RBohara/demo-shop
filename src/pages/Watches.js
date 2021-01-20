@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ContactLink from "../components/ContactLink";
 
 import watch1 from "../img/watch-1.jpeg";
 import watch2 from "../img/watch-2.jpeg";
@@ -103,6 +104,7 @@ const Watches = () => {
           </p>
         </GridItemStyle>
       </GridStyle>
+      <ContactLink />
     </>
   );
 };

@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import ContactLink from "../components/ContactLink";
 
 const About = () => {
   return (
     <>
-      <h1>About Us</h1>
+      <h1 style={{ textAlign: "center" }}>About Us</h1>
       <AboutSectionStyle>
         <AboutSectionHeader>
           <h1>About Us</h1>
@@ -28,6 +29,7 @@ const About = () => {
           section 1.10.32.
         </AboutDescriptionStyle>
       </AboutSectionStyle>
+      <ContactLink />
     </>
   );
 };
