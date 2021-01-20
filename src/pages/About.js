@@ -3,6 +3,7 @@ import styled from "styled-components";
 const About = () => {
   return (
     <>
+      <h1>About Us</h1>
       <AboutSectionStyle>
         <AboutSectionHeader>
           <h1>About Us</h1>
